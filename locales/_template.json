@@ -1,0 +1,30 @@
+{
+	"meta": {
+		"code": "xx-XX",
+		"name": "Language Name (English)",
+		"nativeName": "本语言名称",
+		"description": "Kittens Game 本体翻译补丁（xx-XX）",
+		"mode": "match",
+		"languages": ["xx"],
+		"author": "your-github-handle",
+		"license": "MIT",
+		"version": "0.1.0",
+		"source": "community"
+	},
+	"i18n": {
+		"example.missing.key": "把这里换成译文"
+	},
+	"data": {
+		"badges": {},
+		"map": {
+			"maps": {},
+			"biomes": {},
+			"fauna": {}
+		}
+	},
+	"dom": {
+		"exact": [["Example", "示例"]],
+		"fragment": [["Explorers:", "探险者："]],
+		"regex": [["\\[eff:", "[效率:", "g"]]
+	}
+}

@@ -1,0 +1,8 @@
+# 默认按文本处理，提交时统一为 LF（Windows 上开发也不会污染产物/校验）
+* text=auto eol=lf
+
+# 构建产物必须是 LF：油猴脚本与 JSON 解析对行尾敏感
+dist/*.user.js text eol=lf
+locales/*.json text eol=lf
+tools/*.mjs text eol=lf
+src/*.js text eol=lf

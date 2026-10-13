@@ -1,0 +1,30 @@
+{
+	"name": "kg-translate",
+	"version": "0.1.0",
+	"private": false,
+	"description": "A community translation framework for Kittens Game — language packs separated from the engine, so any language can be added without touching code.",
+	"license": "MIT",
+	"type": "module",
+	"engines": {
+		"node": ">=20"
+	},
+	"scripts": {
+		"build": "node tools/build.mjs",
+		"check": "node tools/build.mjs --check",
+		"verify": "node tools/verify.mjs",
+		"bench": "node tools/bench-pack.mjs",
+		"new-locale": "node tools/new-locale.mjs",
+		"test": "node tools/build.mjs --check && node --check dist/Kg-translate-zh-CN.user.js"
+	},
+	"keywords": [
+		"kittens-game",
+		"translation",
+		"userscript",
+		"i18n",
+		"localization"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/c940949574/Kittensgame-translate.git"
+	}
+}

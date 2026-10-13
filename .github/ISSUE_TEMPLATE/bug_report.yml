@@ -1,0 +1,45 @@
+name: Bug report
+description: Something does not get translated, or the script breaks
+labels: [bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What text stayed untranslated, or what error appeared?
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where in the game
+      placeholder: "e.g. Village → Map, or the Achievements badge row"
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: Your language pack
+      placeholder: zh-CN
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Pack mode
+      options: [force, match]
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Game version
+      options: ["/web (stable)", "/beta"]
+    validations:
+      required: true
+  - type: textarea
+    id: console
+    attributes:
+      label: Console output
+      description: Lines from the browser console starting with [kg-translate]
+      render: text
