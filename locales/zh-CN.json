@@ -119,7 +119,11 @@
     "religion.pact.pactOfCleansing.label": "净化之契约",
     "religion.pact.pactOfExtermination.label": "灭绝之契约",
     "religion.pact.pactOfPurity.label": "纯洁之契约",
-    "religion.pact.pactOfArcane.label": "奥术之契约"
+    "religion.pact.pactOfArcane.label": "奥术之契约",
+    "space.planet.umbra.hrHarvester.label": "暗影蒸能器",
+    "space.planet.umbra.hrHarvester.desc": "暗影蒸能器，汲取黑洞蒸发的能量。每台产出 1W 能源，输出随时间缓慢提升。",
+    "effectsMgr.statics.hrHarvester-energyProduction.title": "暗影蒸能器 - 能源产出",
+    "effectsMgr.statics.umbraBoostRatio.title": "暗影蒸能器加成"
   },
   "data": {
     "badges": {
