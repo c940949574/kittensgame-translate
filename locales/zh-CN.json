@@ -10,7 +10,7 @@
     ],
     "source": "kitten-game-zh-patch.user.js v1.7.0",
     "license": "MIT",
-    "preferOfficial": true,
+    "preferOfficial": false,
     "nativeScript": "[\\u3000-\\u303f\\uff00-\\uffef\\u4e00-\\u9fff\\uf900-\\ufaff]"
   },
   "i18n": {
@@ -94,7 +94,32 @@
     "workshop.zebraUpgrade.reforgedOutposts.desc": "斑马锻造用于改造前哨。每 10 座锻造提供额外的准备工作。",
     "workshop.zebraUpgrade.reforgedOutposts.label": "重铸前哨",
     "workshop.zebraUpgrade.zebraTrappers.desc": "斑马设置陷阱，为捕猎做更充分的准备",
-    "workshop.zebraUpgrade.zebraTrappers.label": "斑马捕猎手"
+    "workshop.zebraUpgrade.zebraTrappers.label": "斑马捕猎手",
+    "msg.pacts.info": "每跨过 1000 年，按剩余契约数额外发放业力（签约会占用契约位，业力随之减少）。契约在重置时间线时全部清空。<br>可用契约：{0}　维护费：每契约每天 {1} 死灵兽",
+    "religion.pact.pactOfDestruction.label": "销毁之契约",
+    "religion.pact.pactOfChronicler.label": "时空之契约",
+    "religion.pact.pactOfCleansing.desc": "涤荡尘世浊流，澄净山河万象，洗涤乾坤尘埃，拓宽储纳之疆。<br>效果：全局资源上限。",
+    "religion.pact.pactOfDestruction.desc": "撕裂现实帷幕，碾碎虚空边界，焚尽万象为薪，铸成毁灭赞歌。<br>效果：全局产出。",
+    "religion.pact.pactOfExtermination.desc": "荡涤尘世邪祟，斩绝不洁根源，焚尽污秽残念，引燃信仰圣焰。<br>效果：信仰产出。",
+    "religion.pact.pactOfPurity.desc": "净化山川天地，洞察宇宙玄秘，驱散暗涌阴翳，填补现实罅隙。<br>效果：黑图书馆效果、太空纲要。",
+    "religion.pact.pactOfArcane.desc": "引星辰作熔炉，以太虚化烈焰，重塑物质本源，点化匠造之机。<br>效果：工匠加成、工程师合成倍率。",
+    "religion.pact.pactOfChronicler.desc": "拨转光阴长河，穿行时空裂隙，洞彻时序流转，预演万世兴替。<br>效果：年度产出、时间加成。",
+    "effectsMgr.statics.pactsAvailable.title": "契约位",
+    "effectsMgr.statics.necrocornPerDay.pact.title": "死灵兽祭品",
+    "effectsMgr.statics.pactGlobalResourceRatio.title": "每座黑金字塔的资源上限",
+    "effectsMgr.statics.pactGlobalProductionRatio.title": "每座黑金字塔的全局产出",
+    "effectsMgr.statics.pactFaithRatio.title": "每座黑金字塔的信仰产出",
+    "effectsMgr.statics.pactBlackLibraryBoost.title": "每座黑金字塔的黑图书馆效果",
+    "effectsMgr.statics.pactDeficitRecoveryRatio.title": "每座黑金字塔的负债恢复",
+    "effectsMgr.statics.pactSpaceCompendiumRatio.title": "每座黑金字塔的太空纲要",
+    "effectsMgr.statics.pactcraftRatio.title": "每座黑金字塔的工匠加成",
+    "effectsMgr.statics.pactPerYearRatio.title": "每座黑金字塔的年度产出",
+    "effectsMgr.statics.pactUniversalKnowHow.title": "每座黑金字塔的工程师合成倍率",
+    "effectsMgr.statics.pacttimeRatio.title": "每座黑金字塔的时间加成",
+    "religion.pact.pactOfCleansing.label": "净化之契约",
+    "religion.pact.pactOfExtermination.label": "灭绝之契约",
+    "religion.pact.pactOfPurity.label": "纯洁之契约",
+    "religion.pact.pactOfArcane.label": "奥术之契约"
   },
   "data": {
     "badges": {
