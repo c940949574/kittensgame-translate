@@ -60,6 +60,10 @@ versions are per-language and follow the build's `meta.version`.
 - 改为 `preferOfficial: false`：语言包收录的键就是要精选覆盖官方的；未收录的键官方译文照常生效，行为不变。
 - 补齐 4 条缺失的契约标签（净化/灭绝/纯洁/奥术之契约），6 个标签统一「XX之契约」。i18n 词条 102 → 106。
 
+### Added — 暗影蒸能器（HR Harvester 全簇）
+- 新增 4 条 Umbra 黑洞机器词条（此前全在官方 crowdin，语言包未收录）：`space.planet.umbra.hrHarvester.label`→暗影蒸能器、`…hrHarvester.desc`→「暗影蒸能器，汲取黑洞蒸发的能量。每台产出 1W 能源，输出随时间缓慢提升。」、`effectsMgr.statics.hrHarvester-energyProduction.title`→暗影蒸能器 - 能源产出、`effectsMgr.statics.umbraBoostRatio.title`→暗影蒸能器加成。
+- 命名对齐星球/黑洞本名「暗影」(Umbra)，`蒸能` 取霍金辐射=黑洞蒸发的本意，4 处统一。i18n 词条 106 → 110。
+
 ### Notes
 - 语言包是数据，引擎不含任何语言知识——加语言不需要改代码。
 - `dist/` 有意入库，便于 raw URL 直接安装。
