@@ -66,7 +66,7 @@ versions are per-language and follow the build's `meta.version`.
 
 ### Added — 大使政策（ambassador_policies，10-18 beta 更新）
 - 收录 beta 2026-10-18 新增的 13 条词条（此前官方 zh 全无）：4 条政策标签 + 4 条政策描述 + 5 条效果标题。
-- 政策：`persuasiveResearchers`→辩才学者、`spriceRoutes`→丝绸之路（上游键名笔误，未改键）、`universalEtiquette`→普世礼节、`cuisineExchange`→饮食交融。
+- 政策：`persuasiveResearchers`→辩才学者、`spriceRoutes`→**香料之路**（上游键名笔误，未改键；曾试译「丝绸之路」，因史实错位——古希腊称那条陆路为「赛里斯之路/丝国之路」，香料主要走海路——已改回直译）、`universalEtiquette`→普世礼节、`cuisineExchange`→饮食交融。
 - 效果：`ambassadorCultureDiscount`→大使文化消耗减免、`ambassadorSpiceDiscount`→大使香料消耗减免、`ambassadorCultureFromManuscripts`→大使手稿文化加成、`tradeVolumeBlueprintsChance`→交易量蓝图概率、`tradeVolumeSpiceChance`→交易量香料概率。
 - 术语对齐官方现有译法（`tradeVolume`=交易数量、`tradeBlueprintChance`=蓝图概率、`cultureFromManuscripts`=来源于手稿的文化上限）。i18n 词条 110 → 123。
 
