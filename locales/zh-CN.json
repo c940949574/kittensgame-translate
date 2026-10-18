@@ -123,7 +123,20 @@
     "space.planet.umbra.hrHarvester.label": "暗影蒸能器",
     "space.planet.umbra.hrHarvester.desc": "暗影蒸能器，汲取黑洞蒸发的能量。每台产出 1W 能源，输出随时间缓慢提升。",
     "effectsMgr.statics.hrHarvester-energyProduction.title": "暗影蒸能器 - 能源产出",
-    "effectsMgr.statics.umbraBoostRatio.title": "暗影蒸能器能源加成"
+    "effectsMgr.statics.umbraBoostRatio.title": "暗影蒸能器能源加成",
+    "policy.persuasiveResearchers.label": "辩才学者",
+    "policy.spriceRoutes.label": "丝绸之路",
+    "policy.universalEtiquette.label": "普世礼节",
+    "policy.cuisineExchange.label": "饮食交融",
+    "policy.persuasiveResearchers.desc": "大使说服他族分享更多设计，使贸易量提升蓝图获取概率",
+    "policy.spriceRoutes.desc": "大使开辟异族珍馐的进口渠道，使贸易量提升香料获取概率",
+    "policy.universalEtiquette.desc": "教导大使通晓外交礼仪，提升手稿提供的文化上限",
+    "policy.cuisineExchange.desc": "大使品尝异族百味，降低自产香料与文化维持开销",
+    "effectsMgr.statics.ambassadorCultureDiscount.title": "大使文化消耗减免",
+    "effectsMgr.statics.ambassadorSpiceDiscount.title": "大使香料消耗减免",
+    "effectsMgr.statics.ambassadorCultureFromManuscripts.title": "大使手稿文化加成",
+    "effectsMgr.statics.tradeVolumeBlueprintsChance.title": "交易量蓝图概率",
+    "effectsMgr.statics.tradeVolumeSpiceChance.title": "交易量香料概率"
   },
   "data": {
     "badges": {

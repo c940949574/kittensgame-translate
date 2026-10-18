@@ -64,6 +64,12 @@ versions are per-language and follow the build's `meta.version`.
 - 新增 4 条 Umbra 黑洞机器词条（此前全在官方 crowdin，语言包未收录）：`space.planet.umbra.hrHarvester.label`→暗影蒸能器、`…hrHarvester.desc`→「暗影蒸能器，汲取黑洞蒸发的能量。每台产出 1W 能源，输出随时间缓慢提升。」、`effectsMgr.statics.hrHarvester-energyProduction.title`→暗影蒸能器 - 能源产出、`effectsMgr.statics.umbraBoostRatio.title`→暗影蒸能器加成。
 - 命名对齐星球/黑洞本名「暗影」(Umbra)，`蒸能` 取霍金辐射=黑洞蒸发的本意，4 处统一。i18n 词条 106 → 110。
 
+### Added — 大使政策（ambassador_policies，10-18 beta 更新）
+- 收录 beta 2026-10-18 新增的 13 条词条（此前官方 zh 全无）：4 条政策标签 + 4 条政策描述 + 5 条效果标题。
+- 政策：`persuasiveResearchers`→辩才学者、`spriceRoutes`→丝绸之路（上游键名笔误，未改键）、`universalEtiquette`→普世礼节、`cuisineExchange`→饮食交融。
+- 效果：`ambassadorCultureDiscount`→大使文化消耗减免、`ambassadorSpiceDiscount`→大使香料消耗减免、`ambassadorCultureFromManuscripts`→大使手稿文化加成、`tradeVolumeBlueprintsChance`→交易量蓝图概率、`tradeVolumeSpiceChance`→交易量香料概率。
+- 术语对齐官方现有译法（`tradeVolume`=交易数量、`tradeBlueprintChance`=蓝图概率、`cultureFromManuscripts`=来源于手稿的文化上限）。i18n 词条 110 → 123。
+
 ### Notes
 - 语言包是数据，引擎不含任何语言知识——加语言不需要改代码。
 - `dist/` 有意入库，便于 raw URL 直接安装。
