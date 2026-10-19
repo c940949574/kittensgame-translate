@@ -114,6 +114,9 @@ function build(locale, file) {
 		`// @author       ${locale.meta.author ?? AUTHOR}`,
 		`// @match        https://kittensgame.com/*`,
 		`// @match        https://*.kittensgame.com/*`,
+		// 从 Release 直装：latest 永远指向最新一次发布，油猴据此检查更新。
+		`// @updateURL    https://github.com/${REPO_OWNER}/${REPO_NAME}/releases/latest/download/Kg-translate-${locale.meta.code}.user.js`,
+		`// @downloadURL  https://github.com/${REPO_OWNER}/${REPO_NAME}/releases/latest/download/Kg-translate-${locale.meta.code}.user.js`,
 		`// @run-at       document-start`,
 		`// @grant        none`,
 		`// @license      ${locale.meta.license ?? "MIT"}`,
