@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         KG Translate — 简体中文 (zh-CN)
 // @namespace    https://github.com/c940949574/Kittensgame-translate
-// @version      0.1.0-20261018
+// @version      0.1.0-20261019
 // @description  Kittens Game 本体翻译补丁（简体中文）
 // @author       c940949574
 // @match        https://kittensgame.com/*
